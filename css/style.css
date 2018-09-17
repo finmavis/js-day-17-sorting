@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#bands {
+  list-style: inside square;
+  font-size: 2rem;
+  background: #fff;
+  width: 50rem;
+  margin: 2rem auto;
+  box-shadow: 0 0 0 2rem rgba(0, 0, 0, 0.05);
+}
+
+#bands li {
+  border-bottom: 1px solid #efefef;
+  padding: 2rem;
+}
+
+#bands li:last-child {
+  border-bottom: 0;
+}
+
+a {
+  color: #ffc600;
+  text-decoration: none;
+}
